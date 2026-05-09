@@ -1,0 +1,26 @@
+movie_id,title,genre,release_year,release_date,director,runtime_minutes,budget_usd,rating,status
+M001,Stellar Run,Action,2024,2024-01-24,Raj Patel,116,31958838,6.0,Released
+M002,Dark Orbit,Drama,2024,2024-10-14,James Nolan,88,14575562,6.3,Released
+M003,Last Kingdom,Comedy,2024,2024-12-21,Tom Blake,138,31587039,7.2,Released
+M004,Neon Horizon,Sci-Fi,2024,2024-03-23,Elena Cross,128,39295260,6.1,Released
+M005,Echo Chamber,Thriller,2024,2024-02-13,James Nolan,130,48164955,7.7,Released
+M006,Phantom Signal,Romance,2025,2025-09-04,Elena Cross,95,76093639,6.6,Released
+M007,The Last Laugh,Horror,2024,2024-12-03,James Nolan,114,40840994,9.1,Released
+M008,Rising Tide,Documentary,2024,2024-07-09,Elena Cross,131,23831063,6.9,Released
+M009,Silent Protocol,Action,2025,2025-12-22,James Nolan,162,24969840,7.5,Released
+M010,Golden Arc,Drama,2024,2024-08-13,Raj Patel,156,31476249,8.0,Released
+M011,Red Frequency,Comedy,2024,2024-01-26,Raj Patel,136,37935572,5.7,Released
+M012,The Hollow Crown,Sci-Fi,2024,2024-11-16,Elena Cross,143,21175900,6.5,Released
+M013,Storm Chaser,Thriller,2025,2025-12-19,Elena Cross,159,55606628,6.8,Released
+M014,Midnight Protocol,Romance,2025,2025-02-25,James Nolan,99,22514014,7.8,Trending
+M015,Fracture Point,Horror,2024,2024-07-13,Tom Blake,144,73016525,6.4,Released
+M016,Blue Ember,Documentary,2024,2024-11-18,Raj Patel,128,16972279,6.6,Released
+M017,The Grand Design,Action,2025,2025-01-24,Raj Patel,149,25978249,7.4,Released
+M018,Shadow Syndicate,Drama,2025,2025-11-17,Tom Blake,110,22513739,6.9,Released
+M019,Iron Curtain,Comedy,2024,2024-10-11,Elena Cross,87,17014631,8.9,Released
+M020,Velvet Underground,Sci-Fi,2024,2024-01-08,Tom Blake,95,13496211,8.2,Released
+M021,Project Helios,Thriller,2024,2024-03-22,Elena Cross,155,24162965,6.5,Trending
+M022,The Drift,Romance,2024,2024-09-25,Sara Kim,124,55551839,9.2,Released
+M023,Celestial,Horror,2025,2025-09-15,James Nolan,116,32158366,5.7,Released
+M024,Broken Orbit,Documentary,2024,2024-10-08,James Nolan,94,9901903,6.3,Released
+M025,The Long Way Down,Action,2025,2025-02-17,Sara Kim,120,67151231,6.3,Released

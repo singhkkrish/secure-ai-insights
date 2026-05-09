@@ -1,0 +1,501 @@
+viewer_id,age,gender,city,country,subscription_tier,segment,signup_date,is_active
+V0001,64,Other,London,US,Family,Power-User,2022-07-14,True
+V0002,24,Other,San Antonio,US,Family,Power-User,2024-06-03,True
+V0003,61,Other,Toronto,IN,Premium,Casual,2022-09-12,True
+V0004,30,Other,Dallas,CA,Premium,Power-User,2022-09-13,True
+V0005,46,Other,Los Angeles,UK,Free,Binge-Watcher,2022-06-20,False
+V0006,49,F,Houston,US,Free,Binge-Watcher,2023-01-24,True
+V0007,42,F,Dallas,US,Family,Binge-Watcher,2022-07-14,True
+V0008,31,M,London,US,Free,Weekend-Only,2022-02-28,True
+V0009,55,F,Mumbai,US,Basic,Casual,2023-06-05,True
+V0010,29,M,London,CA,Family,Casual,2023-08-07,True
+V0011,55,Other,New York,US,Family,New-User,2023-08-02,True
+V0012,34,M,Toronto,US,Basic,Weekend-Only,2023-02-10,True
+V0013,60,Other,Phoenix,US,Free,Casual,2023-04-15,True
+V0014,22,Other,Houston,US,Basic,Weekend-Only,2022-03-12,True
+V0015,41,F,Chicago,US,Premium,New-User,2024-04-06,True
+V0016,60,Other,Phoenix,US,Free,Binge-Watcher,2022-09-28,True
+V0017,24,Other,Mumbai,AU,Basic,Weekend-Only,2022-07-28,True
+V0018,50,F,Phoenix,US,Free,Casual,2023-10-12,False
+V0019,35,M,New York,US,Basic,Weekend-Only,2022-06-15,False
+V0020,53,Other,San Antonio,US,Free,Casual,2023-12-09,True
+V0021,52,M,Philadelphia,US,Basic,Power-User,2022-05-11,True
+V0022,37,F,New York,US,Basic,Binge-Watcher,2023-11-14,True
+V0023,40,Other,San Antonio,US,Basic,Binge-Watcher,2024-06-04,True
+V0024,29,F,New York,AU,Family,Binge-Watcher,2022-10-01,True
+V0025,62,M,San Antonio,US,Family,Binge-Watcher,2022-07-24,False
+V0026,40,F,Houston,US,Basic,Power-User,2022-12-03,True
+V0027,22,F,Philadelphia,US,Family,New-User,2022-12-06,True
+V0028,25,F,Chicago,US,Premium,Casual,2022-04-22,False
+V0029,40,Other,Philadelphia,US,Free,Power-User,2023-08-14,True
+V0030,34,M,Sydney,US,Basic,Weekend-Only,2023-03-18,True
+V0031,60,F,London,US,Free,Weekend-Only,2023-06-04,True
+V0032,60,F,Philadelphia,US,Premium,New-User,2022-05-11,True
+V0033,44,Other,San Antonio,US,Basic,New-User,2023-08-06,True
+V0034,43,Other,New York,US,Basic,Power-User,2024-03-15,True
+V0035,47,F,Dallas,US,Family,Binge-Watcher,2023-11-06,True
+V0036,36,Other,Toronto,US,Premium,Casual,2024-04-18,True
+V0037,61,F,Houston,US,Basic,Casual,2022-02-17,True
+V0038,48,Other,Los Angeles,US,Basic,Power-User,2023-05-22,False
+V0039,33,M,Toronto,US,Free,Power-User,2022-08-13,True
+V0040,62,Other,Dallas,CA,Free,Power-User,2022-05-17,False
+V0041,60,Other,Mumbai,US,Family,New-User,2024-04-14,False
+V0042,53,F,Chicago,US,Family,Power-User,2022-09-23,True
+V0043,58,F,Mumbai,US,Basic,Weekend-Only,2023-03-27,True
+V0044,63,F,Houston,US,Premium,New-User,2022-03-24,True
+V0045,27,M,San Antonio,US,Basic,Casual,2023-03-01,False
+V0046,39,Other,Dallas,US,Basic,Power-User,2023-02-03,True
+V0047,54,F,Dallas,AU,Premium,Power-User,2024-05-23,False
+V0048,52,Other,Sydney,US,Basic,Power-User,2022-08-13,True
+V0049,45,F,New York,US,Family,Binge-Watcher,2024-05-10,False
+V0050,26,Other,Mumbai,IN,Free,Casual,2023-10-21,False
+V0051,26,F,Chicago,IN,Premium,Binge-Watcher,2023-04-11,True
+V0052,39,F,Phoenix,US,Family,Weekend-Only,2024-05-04,True
+V0053,48,M,Sydney,US,Premium,Binge-Watcher,2023-10-28,True
+V0054,59,M,New York,US,Basic,Casual,2023-09-29,True
+V0055,33,M,Dallas,US,Basic,Power-User,2023-12-18,True
+V0056,41,M,London,US,Free,Binge-Watcher,2022-11-15,True
+V0057,55,M,Phoenix,US,Family,Power-User,2024-01-03,True
+V0058,22,Other,Sydney,US,Basic,Casual,2023-12-15,True
+V0059,61,Other,Los Angeles,US,Free,Weekend-Only,2023-06-30,False
+V0060,60,F,Los Angeles,US,Premium,Casual,2024-05-19,False
+V0061,49,M,San Antonio,US,Family,Binge-Watcher,2023-03-22,True
+V0062,64,Other,Toronto,US,Family,Power-User,2023-03-23,True
+V0063,38,M,Los Angeles,US,Family,Binge-Watcher,2024-02-08,False
+V0064,54,Other,Toronto,US,Free,Power-User,2024-05-21,True
+V0065,29,F,Houston,US,Premium,Weekend-Only,2022-10-14,True
+V0066,53,M,Mumbai,US,Free,Binge-Watcher,2024-01-08,False
+V0067,49,Other,Houston,US,Family,Power-User,2024-03-22,True
+V0068,23,F,Houston,US,Basic,Weekend-Only,2023-11-11,True
+V0069,48,Other,Mumbai,US,Premium,Weekend-Only,2023-12-21,False
+V0070,35,F,Phoenix,US,Basic,Weekend-Only,2022-05-03,True
+V0071,30,M,Sydney,US,Premium,Casual,2024-05-02,True
+V0072,36,M,Philadelphia,UK,Basic,Weekend-Only,2022-02-16,True
+V0073,53,F,Sydney,US,Family,Casual,2024-06-12,True
+V0074,54,F,Dallas,US,Premium,Binge-Watcher,2022-02-22,True
+V0075,48,M,Los Angeles,US,Free,New-User,2023-10-07,True
+V0076,27,M,London,US,Free,Binge-Watcher,2022-05-02,False
+V0077,56,Other,London,US,Family,Power-User,2023-03-30,True
+V0078,55,F,Phoenix,US,Free,New-User,2024-01-28,True
+V0079,31,Other,Houston,US,Free,Binge-Watcher,2022-09-03,True
+V0080,53,M,Chicago,IN,Family,Weekend-Only,2022-02-03,True
+V0081,36,Other,Phoenix,US,Family,Casual,2023-12-05,True
+V0082,34,Other,London,US,Basic,Power-User,2022-04-28,True
+V0083,59,M,Phoenix,US,Free,Casual,2022-06-19,True
+V0084,56,Other,London,US,Family,Casual,2023-04-25,True
+V0085,62,F,Phoenix,US,Family,Power-User,2022-03-24,True
+V0086,45,Other,Philadelphia,US,Free,Casual,2022-08-23,True
+V0087,61,F,London,CA,Family,New-User,2023-10-30,False
+V0088,35,M,London,US,Family,Casual,2023-04-27,True
+V0089,44,F,Philadelphia,US,Basic,Weekend-Only,2023-02-26,False
+V0090,36,Other,San Antonio,US,Free,Power-User,2022-04-01,True
+V0091,34,F,Los Angeles,US,Family,New-User,2024-04-24,True
+V0092,60,Other,Dallas,US,Basic,New-User,2023-01-06,False
+V0093,58,F,New York,US,Basic,Weekend-Only,2023-03-25,False
+V0094,25,M,Toronto,US,Basic,Binge-Watcher,2022-11-15,True
+V0095,53,F,Los Angeles,US,Free,Power-User,2022-05-01,True
+V0096,49,Other,Phoenix,US,Premium,Power-User,2024-05-04,False
+V0097,48,M,Dallas,US,Family,Binge-Watcher,2023-09-06,True
+V0098,22,F,San Antonio,US,Premium,Casual,2022-10-17,True
+V0099,55,Other,Toronto,US,Basic,Power-User,2023-07-06,False
+V0100,40,F,Mumbai,US,Family,Power-User,2022-11-26,True
+V0101,62,M,London,US,Family,Casual,2022-11-22,False
+V0102,63,F,San Antonio,US,Basic,Power-User,2022-02-07,True
+V0103,50,Other,Philadelphia,US,Family,Casual,2023-06-23,False
+V0104,18,Other,Chicago,US,Basic,Casual,2023-04-26,True
+V0105,39,Other,Sydney,US,Free,Weekend-Only,2024-05-22,False
+V0106,38,Other,Sydney,US,Family,New-User,2022-02-06,True
+V0107,33,Other,Toronto,US,Basic,Casual,2023-03-21,True
+V0108,58,Other,Los Angeles,US,Premium,Casual,2022-02-17,True
+V0109,21,F,Philadelphia,US,Basic,Binge-Watcher,2023-06-28,False
+V0110,54,Other,Chicago,UK,Family,New-User,2023-12-01,True
+V0111,49,Other,Chicago,US,Premium,Power-User,2022-09-19,True
+V0112,47,F,Toronto,US,Free,Power-User,2022-12-20,True
+V0113,58,F,Sydney,US,Premium,Binge-Watcher,2023-01-29,False
+V0114,24,M,San Antonio,US,Premium,Weekend-Only,2022-01-23,False
+V0115,35,M,London,US,Free,New-User,2024-02-03,False
+V0116,36,M,London,US,Basic,Binge-Watcher,2023-09-28,True
+V0117,61,Other,Toronto,US,Basic,Casual,2023-10-05,True
+V0118,37,F,New York,US,Basic,Casual,2022-10-30,True
+V0119,44,M,Houston,AU,Premium,Binge-Watcher,2022-09-21,False
+V0120,36,Other,Philadelphia,US,Family,Casual,2022-05-25,True
+V0121,61,Other,Toronto,US,Premium,Casual,2024-03-20,False
+V0122,18,F,Mumbai,AU,Premium,New-User,2023-01-26,True
+V0123,24,Other,Houston,US,Premium,New-User,2022-08-15,True
+V0124,58,F,Sydney,US,Family,Casual,2022-05-24,True
+V0125,20,F,Dallas,CA,Basic,Power-User,2023-04-10,True
+V0126,60,Other,Sydney,US,Family,New-User,2024-01-31,True
+V0127,44,Other,Los Angeles,US,Family,Weekend-Only,2022-02-03,True
+V0128,31,F,Dallas,US,Premium,Casual,2023-12-04,True
+V0129,52,Other,Philadelphia,AU,Basic,Casual,2024-05-18,False
+V0130,23,Other,Houston,US,Free,Casual,2024-03-16,True
+V0131,33,M,London,US,Basic,New-User,2022-08-10,True
+V0132,39,M,London,CA,Basic,New-User,2022-09-14,True
+V0133,25,Other,New York,AU,Basic,New-User,2022-11-28,True
+V0134,29,F,New York,IN,Free,Casual,2023-05-03,False
+V0135,41,Other,London,CA,Free,New-User,2022-11-05,False
+V0136,59,M,New York,US,Family,Power-User,2023-12-04,True
+V0137,49,Other,Dallas,UK,Premium,New-User,2022-06-01,True
+V0138,26,F,London,US,Premium,Power-User,2023-09-04,True
+V0139,47,Other,London,US,Free,New-User,2024-01-09,True
+V0140,45,F,Houston,US,Family,Power-User,2023-03-02,True
+V0141,38,F,Philadelphia,US,Premium,Binge-Watcher,2023-12-05,False
+V0142,22,M,Los Angeles,UK,Premium,Binge-Watcher,2023-07-24,True
+V0143,55,Other,Mumbai,US,Free,Power-User,2022-12-29,False
+V0144,64,M,Phoenix,US,Premium,Casual,2023-08-15,True
+V0145,27,Other,Dallas,US,Free,Weekend-Only,2024-05-15,True
+V0146,25,F,London,US,Family,New-User,2024-02-25,True
+V0147,56,Other,Sydney,US,Basic,Weekend-Only,2023-12-21,True
+V0148,39,F,New York,CA,Family,Casual,2022-05-26,True
+V0149,23,Other,Mumbai,US,Family,Power-User,2022-12-16,True
+V0150,41,F,Sydney,US,Free,Casual,2022-06-09,True
+V0151,57,M,Toronto,IN,Family,Power-User,2023-09-14,False
+V0152,44,F,Houston,US,Free,Weekend-Only,2023-03-17,True
+V0153,36,Other,Toronto,US,Premium,Casual,2022-08-14,False
+V0154,56,M,New York,US,Basic,Binge-Watcher,2024-02-22,True
+V0155,36,F,Los Angeles,IN,Basic,Binge-Watcher,2023-01-25,True
+V0156,50,Other,Toronto,US,Free,Power-User,2024-06-01,True
+V0157,45,M,Dallas,US,Premium,New-User,2023-03-16,False
+V0158,63,Other,San Antonio,US,Family,Casual,2022-11-29,True
+V0159,57,F,Sydney,US,Free,Power-User,2024-05-14,True
+V0160,33,F,London,US,Free,Power-User,2024-06-10,True
+V0161,39,M,Philadelphia,US,Free,New-User,2023-10-11,True
+V0162,51,Other,Houston,US,Premium,Weekend-Only,2024-01-15,True
+V0163,33,M,Chicago,US,Basic,New-User,2022-06-06,True
+V0164,29,Other,Dallas,US,Family,New-User,2023-10-21,True
+V0165,58,F,Chicago,US,Family,Power-User,2023-10-09,True
+V0166,35,Other,New York,US,Free,Weekend-Only,2023-04-18,False
+V0167,20,M,Philadelphia,US,Free,Casual,2023-09-22,False
+V0168,47,Other,Mumbai,US,Free,Power-User,2024-04-09,True
+V0169,38,Other,Dallas,US,Free,Power-User,2022-04-16,True
+V0170,63,M,Mumbai,US,Free,Binge-Watcher,2023-12-26,False
+V0171,46,Other,Mumbai,US,Premium,Weekend-Only,2022-10-17,False
+V0172,44,F,Toronto,US,Premium,Casual,2022-12-04,True
+V0173,53,Other,San Antonio,US,Basic,Weekend-Only,2022-03-25,True
+V0174,40,F,Toronto,US,Family,Binge-Watcher,2023-09-02,True
+V0175,37,Other,San Antonio,US,Premium,Binge-Watcher,2023-11-18,True
+V0176,59,Other,San Antonio,US,Free,Weekend-Only,2022-11-13,True
+V0177,31,F,Dallas,CA,Basic,Casual,2022-10-30,True
+V0178,50,Other,Sydney,US,Free,Weekend-Only,2024-06-16,True
+V0179,56,F,Chicago,CA,Family,Casual,2023-02-25,True
+V0180,61,Other,Houston,US,Premium,Power-User,2022-08-28,True
+V0181,37,F,Houston,US,Family,Power-User,2024-02-27,True
+V0182,42,Other,Mumbai,US,Basic,Binge-Watcher,2024-03-31,True
+V0183,34,M,Toronto,US,Premium,New-User,2022-04-16,True
+V0184,36,M,Chicago,US,Basic,Power-User,2022-04-04,True
+V0185,46,F,New York,US,Family,New-User,2023-01-18,True
+V0186,42,M,Philadelphia,US,Premium,Casual,2024-05-09,True
+V0187,27,M,New York,US,Family,Binge-Watcher,2024-02-17,False
+V0188,46,Other,New York,US,Free,Weekend-Only,2022-08-09,True
+V0189,53,Other,London,US,Free,Weekend-Only,2022-09-01,True
+V0190,25,M,Houston,US,Family,Casual,2022-04-24,False
+V0191,56,Other,New York,US,Basic,Binge-Watcher,2022-10-26,False
+V0192,18,Other,Philadelphia,US,Family,Binge-Watcher,2023-11-12,True
+V0193,51,F,Los Angeles,US,Free,Power-User,2024-06-13,False
+V0194,20,Other,San Antonio,US,Premium,Casual,2023-01-01,True
+V0195,40,M,Sydney,US,Free,New-User,2024-01-23,True
+V0196,26,M,Philadelphia,US,Basic,Power-User,2023-12-14,False
+V0197,58,M,Chicago,IN,Free,Weekend-Only,2022-07-26,True
+V0198,30,M,Philadelphia,US,Family,New-User,2023-04-30,True
+V0199,20,Other,Houston,US,Free,Weekend-Only,2022-10-07,True
+V0200,41,F,San Antonio,US,Family,Weekend-Only,2022-07-11,False
+V0201,62,F,Philadelphia,US,Premium,Casual,2024-01-15,False
+V0202,23,F,London,US,Basic,New-User,2022-10-28,True
+V0203,24,M,Philadelphia,US,Premium,Power-User,2023-09-10,False
+V0204,28,Other,Dallas,US,Free,Weekend-Only,2023-09-22,False
+V0205,35,Other,New York,IN,Premium,New-User,2024-03-31,True
+V0206,19,M,London,US,Family,Casual,2022-05-10,True
+V0207,33,Other,Philadelphia,US,Free,New-User,2022-06-07,False
+V0208,41,F,Dallas,US,Basic,New-User,2023-01-11,False
+V0209,38,Other,Phoenix,US,Free,Casual,2024-01-24,True
+V0210,49,Other,San Antonio,US,Free,Weekend-Only,2024-03-04,True
+V0211,63,F,Houston,US,Premium,Power-User,2022-07-24,True
+V0212,26,M,Dallas,IN,Free,Weekend-Only,2023-11-15,True
+V0213,63,M,Mumbai,US,Premium,Binge-Watcher,2023-12-30,True
+V0214,41,Other,Houston,CA,Basic,Binge-Watcher,2024-03-20,False
+V0215,19,F,Mumbai,US,Family,New-User,2022-05-13,True
+V0216,22,F,San Antonio,US,Family,New-User,2023-02-25,False
+V0217,54,M,Chicago,US,Free,Power-User,2023-04-23,True
+V0218,26,Other,Toronto,US,Basic,Power-User,2023-05-30,True
+V0219,25,Other,Chicago,US,Basic,Weekend-Only,2023-12-28,True
+V0220,40,Other,Phoenix,US,Premium,Binge-Watcher,2023-10-13,True
+V0221,26,Other,Phoenix,US,Free,New-User,2023-10-19,True
+V0222,55,Other,Chicago,AU,Free,Casual,2022-03-25,True
+V0223,59,Other,Phoenix,US,Family,New-User,2023-10-17,True
+V0224,49,Other,Mumbai,US,Premium,Power-User,2022-09-08,False
+V0225,37,F,Los Angeles,US,Basic,Power-User,2023-03-02,False
+V0226,47,M,Philadelphia,US,Premium,Weekend-Only,2024-01-22,True
+V0227,43,M,Philadelphia,US,Free,Weekend-Only,2022-09-05,False
+V0228,25,F,Dallas,US,Free,Casual,2022-10-25,False
+V0229,57,F,Houston,US,Basic,Weekend-Only,2023-08-15,True
+V0230,30,M,Dallas,US,Family,Power-User,2024-06-19,True
+V0231,49,M,Los Angeles,US,Family,Binge-Watcher,2022-08-09,True
+V0232,21,M,Phoenix,US,Family,Weekend-Only,2023-07-04,True
+V0233,24,F,Chicago,US,Premium,Power-User,2023-01-10,True
+V0234,43,M,London,US,Premium,New-User,2022-10-23,True
+V0235,42,Other,Dallas,US,Premium,New-User,2023-11-28,True
+V0236,26,M,San Antonio,US,Premium,New-User,2023-01-10,True
+V0237,30,Other,Mumbai,US,Free,Casual,2022-02-09,True
+V0238,63,F,Dallas,US,Basic,New-User,2023-06-12,True
+V0239,38,Other,Philadelphia,AU,Premium,New-User,2024-04-28,False
+V0240,63,Other,Phoenix,US,Free,Weekend-Only,2022-12-06,True
+V0241,44,Other,Phoenix,US,Free,New-User,2023-05-01,True
+V0242,59,Other,London,US,Free,New-User,2023-05-07,True
+V0243,51,Other,Sydney,US,Family,Binge-Watcher,2024-04-21,True
+V0244,20,Other,Sydney,UK,Family,Weekend-Only,2023-03-05,True
+V0245,44,Other,Houston,US,Family,Casual,2023-12-24,True
+V0246,51,M,Mumbai,US,Family,New-User,2023-01-21,True
+V0247,29,F,Mumbai,US,Premium,Weekend-Only,2023-09-17,False
+V0248,30,M,Phoenix,US,Basic,Weekend-Only,2024-02-29,True
+V0249,63,M,Sydney,US,Premium,Power-User,2022-12-24,True
+V0250,36,M,London,US,Family,Power-User,2024-04-18,True
+V0251,27,F,New York,US,Free,Weekend-Only,2023-03-29,True
+V0252,48,M,Houston,US,Premium,New-User,2023-12-14,True
+V0253,26,M,London,US,Basic,Binge-Watcher,2022-02-21,True
+V0254,58,M,New York,AU,Family,Casual,2023-11-29,True
+V0255,18,Other,Chicago,US,Family,Power-User,2023-10-29,True
+V0256,36,F,Phoenix,US,Free,New-User,2022-08-26,True
+V0257,29,F,Chicago,US,Free,Power-User,2024-03-17,False
+V0258,29,Other,Phoenix,US,Free,Weekend-Only,2023-08-05,True
+V0259,39,F,Dallas,US,Family,Binge-Watcher,2024-05-21,False
+V0260,35,M,Los Angeles,US,Family,Weekend-Only,2024-01-06,True
+V0261,18,Other,Philadelphia,US,Basic,Binge-Watcher,2023-09-18,False
+V0262,45,Other,Philadelphia,UK,Basic,Binge-Watcher,2023-05-04,True
+V0263,33,M,Phoenix,US,Family,Weekend-Only,2022-12-04,True
+V0264,55,Other,London,AU,Basic,Casual,2023-11-15,True
+V0265,47,F,Chicago,US,Premium,Casual,2023-10-17,True
+V0266,41,Other,Houston,US,Basic,Power-User,2022-06-06,False
+V0267,56,F,San Antonio,US,Family,New-User,2024-04-01,True
+V0268,33,Other,London,US,Free,New-User,2023-04-03,True
+V0269,22,Other,Los Angeles,CA,Basic,Binge-Watcher,2022-12-02,False
+V0270,25,Other,Houston,US,Family,Casual,2023-06-07,False
+V0271,21,F,Chicago,US,Family,New-User,2022-03-01,False
+V0272,61,F,Sydney,AU,Free,Binge-Watcher,2023-08-16,True
+V0273,20,F,Philadelphia,US,Free,Casual,2023-04-29,True
+V0274,36,F,Chicago,US,Family,Weekend-Only,2023-01-27,False
+V0275,42,F,Los Angeles,US,Basic,Weekend-Only,2022-05-02,True
+V0276,52,F,Mumbai,CA,Free,Casual,2022-11-02,False
+V0277,61,Other,Mumbai,US,Family,Binge-Watcher,2022-09-11,False
+V0278,40,M,Phoenix,UK,Free,Power-User,2023-09-22,True
+V0279,33,M,Los Angeles,UK,Family,New-User,2023-11-20,True
+V0280,33,Other,New York,US,Basic,New-User,2022-08-11,True
+V0281,26,Other,Phoenix,US,Premium,New-User,2023-09-05,True
+V0282,33,F,Chicago,US,Basic,Power-User,2022-11-04,True
+V0283,21,Other,London,US,Basic,Power-User,2023-07-24,False
+V0284,21,F,Toronto,US,Premium,Power-User,2023-02-23,True
+V0285,37,F,Chicago,US,Family,Binge-Watcher,2024-05-19,True
+V0286,37,Other,Chicago,US,Free,New-User,2023-02-27,False
+V0287,53,Other,Chicago,US,Premium,Binge-Watcher,2022-12-05,True
+V0288,46,F,Los Angeles,US,Basic,Casual,2022-10-02,False
+V0289,61,Other,London,UK,Basic,New-User,2024-01-12,True
+V0290,48,M,Philadelphia,US,Free,Binge-Watcher,2022-07-14,True
+V0291,48,M,Sydney,US,Basic,Power-User,2022-09-03,True
+V0292,36,F,Dallas,US,Premium,Weekend-Only,2022-09-25,True
+V0293,50,F,Dallas,IN,Premium,Binge-Watcher,2023-01-15,True
+V0294,44,M,London,US,Basic,Casual,2022-09-25,False
+V0295,36,M,Houston,US,Family,New-User,2024-05-03,True
+V0296,49,Other,Toronto,US,Premium,Weekend-Only,2024-02-21,False
+V0297,64,Other,Sydney,US,Basic,Weekend-Only,2022-06-23,True
+V0298,64,Other,Dallas,UK,Free,Casual,2024-04-17,True
+V0299,18,F,Chicago,US,Basic,Casual,2023-12-26,True
+V0300,18,M,Mumbai,US,Free,New-User,2023-10-16,False
+V0301,60,F,New York,IN,Free,Casual,2023-06-27,True
+V0302,52,F,New York,US,Family,Binge-Watcher,2022-04-20,True
+V0303,51,M,Houston,AU,Premium,Weekend-Only,2024-03-25,False
+V0304,23,F,San Antonio,US,Basic,Binge-Watcher,2022-11-04,True
+V0305,59,Other,New York,IN,Family,New-User,2023-05-03,True
+V0306,58,M,Sydney,IN,Family,Weekend-Only,2023-08-03,True
+V0307,51,M,Houston,US,Family,Weekend-Only,2022-02-17,True
+V0308,61,F,Mumbai,US,Free,Binge-Watcher,2024-05-20,True
+V0309,19,M,London,IN,Free,Weekend-Only,2022-06-16,True
+V0310,54,F,Toronto,US,Premium,Power-User,2024-02-13,True
+V0311,62,Other,Los Angeles,US,Premium,Casual,2022-04-11,False
+V0312,32,M,Philadelphia,US,Family,Weekend-Only,2022-01-31,True
+V0313,46,F,Houston,US,Family,Power-User,2022-07-10,False
+V0314,23,Other,Phoenix,US,Free,Casual,2022-10-02,True
+V0315,42,Other,Toronto,IN,Premium,Weekend-Only,2022-04-20,True
+V0316,18,F,Dallas,US,Premium,Casual,2022-05-16,True
+V0317,29,F,Dallas,US,Family,Casual,2022-01-27,True
+V0318,40,Other,Los Angeles,US,Premium,Power-User,2022-01-13,True
+V0319,44,F,Los Angeles,US,Basic,New-User,2023-06-18,True
+V0320,61,F,Chicago,AU,Premium,Power-User,2022-05-30,True
+V0321,28,F,Phoenix,US,Family,Casual,2023-01-05,True
+V0322,33,Other,Toronto,US,Basic,Power-User,2022-04-20,True
+V0323,37,M,San Antonio,US,Family,Weekend-Only,2023-03-27,True
+V0324,45,Other,London,AU,Basic,Power-User,2022-11-18,True
+V0325,43,F,Phoenix,US,Family,New-User,2024-03-11,True
+V0326,38,F,Phoenix,US,Family,Weekend-Only,2022-04-27,True
+V0327,55,Other,Chicago,US,Free,Power-User,2023-12-27,True
+V0328,46,F,Sydney,IN,Family,Binge-Watcher,2023-10-11,True
+V0329,33,F,Toronto,IN,Family,Casual,2023-04-05,False
+V0330,55,F,Mumbai,US,Family,New-User,2022-02-07,True
+V0331,62,Other,London,US,Free,Casual,2024-02-27,True
+V0332,60,Other,Philadelphia,UK,Family,Weekend-Only,2024-03-26,False
+V0333,24,M,Los Angeles,US,Basic,Power-User,2023-01-19,False
+V0334,47,Other,London,US,Basic,Weekend-Only,2022-01-26,False
+V0335,24,F,San Antonio,US,Free,Casual,2024-05-01,True
+V0336,40,F,Philadelphia,US,Basic,New-User,2023-05-10,True
+V0337,48,M,Dallas,US,Family,Weekend-Only,2022-03-10,True
+V0338,20,Other,Los Angeles,AU,Free,Binge-Watcher,2024-01-29,True
+V0339,51,M,Mumbai,IN,Family,Binge-Watcher,2024-03-27,False
+V0340,58,M,Chicago,US,Family,Power-User,2022-01-30,True
+V0341,46,Other,San Antonio,US,Basic,Binge-Watcher,2022-10-13,True
+V0342,54,M,Mumbai,AU,Basic,Power-User,2022-04-27,True
+V0343,60,F,Mumbai,US,Premium,New-User,2023-02-02,False
+V0344,55,M,Philadelphia,US,Family,New-User,2022-06-26,True
+V0345,57,Other,Los Angeles,US,Premium,Casual,2022-09-02,True
+V0346,25,M,Philadelphia,US,Family,Power-User,2023-09-03,True
+V0347,54,F,San Antonio,CA,Basic,Power-User,2022-10-23,True
+V0348,29,F,Dallas,US,Premium,Casual,2023-05-12,True
+V0349,30,F,Mumbai,US,Family,Power-User,2023-12-03,False
+V0350,44,Other,Dallas,US,Free,New-User,2022-02-01,True
+V0351,36,M,Phoenix,US,Premium,Binge-Watcher,2024-03-10,False
+V0352,54,Other,Dallas,US,Free,New-User,2022-04-27,True
+V0353,52,F,Mumbai,US,Free,Power-User,2023-07-14,True
+V0354,45,M,Sydney,US,Basic,Weekend-Only,2024-06-14,True
+V0355,46,F,Philadelphia,US,Free,Power-User,2024-06-05,True
+V0356,33,M,Sydney,US,Premium,New-User,2023-10-10,False
+V0357,28,Other,Chicago,US,Basic,Casual,2023-08-07,True
+V0358,52,F,London,US,Premium,Weekend-Only,2022-10-24,True
+V0359,50,Other,Los Angeles,IN,Free,Weekend-Only,2024-06-06,True
+V0360,62,M,Houston,AU,Basic,Power-User,2023-05-17,True
+V0361,54,Other,Phoenix,US,Family,Power-User,2022-03-19,True
+V0362,43,Other,Sydney,US,Premium,Power-User,2023-05-15,True
+V0363,55,M,Sydney,IN,Premium,Casual,2024-03-25,False
+V0364,31,F,Houston,US,Premium,Weekend-Only,2022-12-12,True
+V0365,54,F,Philadelphia,US,Free,Casual,2022-04-12,False
+V0366,19,M,Chicago,US,Free,Power-User,2022-07-27,True
+V0367,59,F,Chicago,US,Premium,Casual,2023-11-02,True
+V0368,34,M,Philadelphia,US,Basic,Casual,2023-02-10,True
+V0369,64,Other,Houston,US,Free,Casual,2022-01-02,True
+V0370,48,M,Chicago,US,Family,Casual,2022-01-09,True
+V0371,25,F,Sydney,UK,Basic,Power-User,2022-04-02,True
+V0372,24,F,Philadelphia,US,Basic,Power-User,2024-03-03,True
+V0373,59,Other,Chicago,UK,Basic,Power-User,2022-12-26,True
+V0374,58,Other,Chicago,US,Family,Binge-Watcher,2022-03-30,True
+V0375,26,M,London,US,Premium,Power-User,2022-11-19,True
+V0376,33,F,Toronto,AU,Free,Weekend-Only,2022-07-30,True
+V0377,43,F,Toronto,CA,Family,Power-User,2022-04-26,True
+V0378,49,Other,London,UK,Premium,Weekend-Only,2022-05-16,False
+V0379,54,F,Philadelphia,US,Basic,Power-User,2024-02-28,True
+V0380,19,Other,Los Angeles,CA,Free,Casual,2024-03-19,False
+V0381,50,F,Toronto,US,Family,Power-User,2023-12-20,False
+V0382,23,Other,Mumbai,US,Basic,Weekend-Only,2022-03-27,True
+V0383,23,Other,Houston,US,Basic,New-User,2022-12-01,False
+V0384,55,Other,Toronto,US,Free,Weekend-Only,2023-12-17,False
+V0385,64,M,New York,US,Family,Casual,2023-04-10,True
+V0386,37,Other,Sydney,US,Basic,Casual,2022-01-13,True
+V0387,62,M,Chicago,US,Premium,New-User,2023-06-14,True
+V0388,28,F,Chicago,US,Premium,Casual,2024-02-29,True
+V0389,39,F,Phoenix,US,Premium,New-User,2023-10-05,True
+V0390,49,F,Mumbai,US,Family,New-User,2022-06-20,True
+V0391,28,F,Los Angeles,US,Free,Binge-Watcher,2024-01-29,True
+V0392,20,M,Houston,AU,Family,Binge-Watcher,2022-07-03,True
+V0393,53,Other,Sydney,US,Basic,Weekend-Only,2022-09-12,False
+V0394,64,F,Phoenix,US,Premium,Casual,2023-05-30,True
+V0395,29,M,Mumbai,US,Family,Casual,2024-06-17,False
+V0396,36,F,Philadelphia,IN,Free,Weekend-Only,2022-07-25,True
+V0397,54,F,Sydney,US,Family,Weekend-Only,2023-08-29,False
+V0398,30,Other,Mumbai,US,Basic,Binge-Watcher,2022-01-07,False
+V0399,19,M,Mumbai,US,Free,Weekend-Only,2022-01-02,False
+V0400,64,F,Los Angeles,US,Basic,Power-User,2023-05-19,True
+V0401,27,Other,Phoenix,CA,Family,Weekend-Only,2023-04-15,True
+V0402,55,M,Mumbai,IN,Free,New-User,2023-08-05,True
+V0403,45,Other,Chicago,US,Premium,Weekend-Only,2024-03-31,False
+V0404,62,Other,Philadelphia,US,Premium,Binge-Watcher,2022-03-18,True
+V0405,26,Other,Los Angeles,CA,Family,Power-User,2022-11-18,False
+V0406,25,Other,Philadelphia,US,Basic,Power-User,2022-11-12,False
+V0407,34,M,Los Angeles,AU,Free,Binge-Watcher,2024-05-05,True
+V0408,27,M,Sydney,US,Premium,Power-User,2023-06-10,True
+V0409,61,F,Phoenix,US,Basic,Casual,2023-02-19,False
+V0410,53,Other,Mumbai,US,Family,Casual,2024-04-03,True
+V0411,25,M,New York,US,Basic,Binge-Watcher,2022-07-22,False
+V0412,41,Other,Toronto,US,Free,New-User,2023-08-24,True
+V0413,22,M,Los Angeles,IN,Basic,Casual,2024-05-17,True
+V0414,25,M,Dallas,IN,Family,Power-User,2022-01-31,False
+V0415,61,F,Chicago,US,Basic,Weekend-Only,2022-10-14,False
+V0416,27,M,London,US,Basic,Weekend-Only,2023-05-26,False
+V0417,53,F,New York,IN,Basic,Power-User,2022-07-24,True
+V0418,58,Other,New York,US,Premium,Power-User,2023-07-12,False
+V0419,40,Other,Mumbai,US,Premium,Binge-Watcher,2022-01-27,True
+V0420,56,M,New York,US,Premium,Casual,2024-04-08,False
+V0421,51,F,London,US,Basic,Casual,2022-09-11,True
+V0422,35,Other,Sydney,CA,Family,Weekend-Only,2024-05-09,True
+V0423,29,M,London,US,Premium,New-User,2022-01-29,True
+V0424,54,Other,Chicago,US,Basic,Power-User,2023-07-10,True
+V0425,29,F,New York,CA,Basic,Casual,2023-06-24,False
+V0426,18,F,London,US,Basic,Weekend-Only,2024-01-05,True
+V0427,38,M,New York,CA,Free,New-User,2024-05-31,True
+V0428,22,F,Sydney,US,Family,New-User,2022-04-14,True
+V0429,37,F,Chicago,US,Family,Power-User,2023-10-27,True
+V0430,29,Other,Mumbai,US,Premium,Binge-Watcher,2023-11-13,True
+V0431,42,F,Sydney,US,Basic,Binge-Watcher,2024-01-17,True
+V0432,62,Other,San Antonio,US,Free,Binge-Watcher,2023-09-09,True
+V0433,57,M,Toronto,US,Family,Binge-Watcher,2022-12-06,True
+V0434,33,F,Philadelphia,UK,Premium,Power-User,2022-01-12,True
+V0435,31,M,Sydney,AU,Free,Casual,2022-02-19,False
+V0436,46,Other,San Antonio,US,Family,Power-User,2023-01-23,True
+V0437,52,F,Los Angeles,US,Basic,Binge-Watcher,2023-04-08,True
+V0438,20,F,New York,US,Free,Casual,2022-12-17,True
+V0439,42,M,Sydney,UK,Premium,New-User,2023-09-21,False
+V0440,63,M,San Antonio,US,Basic,New-User,2023-03-21,True
+V0441,21,M,Philadelphia,US,Basic,Power-User,2023-12-15,True
+V0442,60,F,Phoenix,US,Free,Power-User,2023-08-09,False
+V0443,27,M,Philadelphia,UK,Premium,New-User,2023-05-07,True
+V0444,24,M,Houston,AU,Free,Power-User,2024-05-14,True
+V0445,37,F,Dallas,US,Premium,Casual,2023-10-20,False
+V0446,29,F,San Antonio,US,Family,Casual,2022-09-27,False
+V0447,47,F,Houston,US,Free,Binge-Watcher,2024-02-10,True
+V0448,23,Other,Philadelphia,US,Family,New-User,2022-08-21,True
+V0449,42,Other,San Antonio,US,Family,New-User,2022-08-30,False
+V0450,37,M,San Antonio,US,Free,New-User,2023-08-08,True
+V0451,25,F,Chicago,US,Basic,Binge-Watcher,2024-04-07,True
+V0452,26,M,San Antonio,IN,Basic,Binge-Watcher,2024-05-04,True
+V0453,38,Other,Los Angeles,IN,Premium,Weekend-Only,2023-06-17,False
+V0454,18,Other,London,US,Family,Casual,2023-03-01,True
+V0455,27,Other,London,US,Free,Casual,2023-07-31,True
+V0456,36,Other,Philadelphia,US,Premium,Power-User,2023-11-02,False
+V0457,54,Other,Dallas,AU,Family,Binge-Watcher,2023-09-26,False
+V0458,20,F,Philadelphia,US,Free,Power-User,2022-10-03,True
+V0459,19,F,Phoenix,US,Family,Casual,2024-06-08,True
+V0460,26,F,Sydney,US,Premium,Weekend-Only,2024-01-17,False
+V0461,56,Other,Los Angeles,CA,Family,Power-User,2024-02-17,True
+V0462,21,Other,Chicago,IN,Basic,New-User,2024-06-19,True
+V0463,29,M,Houston,US,Basic,Casual,2023-04-13,True
+V0464,41,Other,Houston,US,Family,New-User,2023-02-11,True
+V0465,61,M,Houston,US,Family,Binge-Watcher,2024-06-10,False
+V0466,55,Other,Philadelphia,US,Premium,Casual,2022-10-19,True
+V0467,42,M,Chicago,US,Basic,Binge-Watcher,2023-10-25,True
+V0468,61,M,Phoenix,US,Free,Casual,2023-05-01,True
+V0469,59,M,London,US,Basic,Weekend-Only,2023-09-15,True
+V0470,63,Other,Toronto,US,Family,Weekend-Only,2023-04-16,True
+V0471,31,F,Phoenix,US,Family,New-User,2022-04-15,True
+V0472,50,Other,Philadelphia,US,Premium,Weekend-Only,2023-12-02,True
+V0473,48,M,Philadelphia,US,Premium,Weekend-Only,2022-09-25,True
+V0474,30,M,Mumbai,US,Free,New-User,2023-02-18,True
+V0475,61,M,Sydney,IN,Premium,Weekend-Only,2023-03-05,False
+V0476,42,Other,New York,US,Basic,Weekend-Only,2024-01-14,True
+V0477,61,Other,Toronto,US,Premium,New-User,2022-11-04,True
+V0478,60,Other,Chicago,US,Family,Binge-Watcher,2024-01-29,True
+V0479,64,Other,Chicago,US,Premium,Casual,2022-08-16,True
+V0480,32,Other,Phoenix,US,Premium,Weekend-Only,2022-09-24,True
+V0481,47,M,Dallas,UK,Family,Binge-Watcher,2023-05-28,True
+V0482,61,F,Mumbai,US,Free,Binge-Watcher,2022-05-21,True
+V0483,39,F,London,US,Family,Binge-Watcher,2022-11-20,True
+V0484,23,F,Philadelphia,US,Basic,Weekend-Only,2023-10-12,True
+V0485,18,F,Phoenix,US,Basic,New-User,2024-02-22,True
+V0486,49,M,Chicago,US,Family,Power-User,2023-03-16,False
+V0487,42,M,New York,US,Premium,Casual,2022-11-26,True
+V0488,19,Other,New York,US,Basic,Binge-Watcher,2023-12-12,True
+V0489,37,M,Los Angeles,US,Premium,Binge-Watcher,2022-03-08,True
+V0490,37,F,Dallas,US,Premium,Power-User,2023-12-05,True
+V0491,39,F,Philadelphia,US,Basic,Power-User,2022-01-20,True
+V0492,32,Other,Chicago,US,Free,New-User,2023-06-01,True
+V0493,25,F,Sydney,US,Free,Power-User,2024-06-16,True
+V0494,52,Other,New York,US,Free,Casual,2023-11-01,True
+V0495,21,Other,Los Angeles,US,Family,Casual,2023-07-15,True
+V0496,48,Other,Chicago,US,Free,Weekend-Only,2023-03-07,True
+V0497,60,Other,Phoenix,US,Basic,Power-User,2024-04-30,True
+V0498,50,Other,London,UK,Free,Power-User,2022-07-23,True
+V0499,34,Other,Houston,US,Family,Weekend-Only,2022-06-14,True
+V0500,53,F,Houston,US,Family,Weekend-Only,2022-08-29,True
