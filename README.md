@@ -1,3 +1,4 @@
+The issue is the code blocks inside the README are breaking the formatting. Here is the complete fixed version — Ctrl+A → Delete → Paste → Ctrl+S:
 # 🎬 StreamVault AI Insights
 ### Secure AI-Powered Internal Analytics Assistant
 
@@ -6,16 +7,18 @@
 ---
 
 ## 📐 Architecture Overview
+
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                         FRONTEND (React + Vite)                      │
 │  ┌─────────────┐  ┌──────────────┐  ┌──────────────────────────┐   │
 │  │  Chat UI    │  │  Charts Tab  │  │  Documents Search Tab    │   │
 │  │  (AI Asst.) │  │  (Recharts)  │  │  (PDF Content Browser)   │   │
 │  └──────┬──────┘  └──────┬───────┘  └────────────┬─────────────┘   │
-│         └────────────────┼──────────────────────────┘               │
+│         └────────────────┼─────────────────────────┘                │
 │                          │ HTTP/REST (axios)                         │
 └──────────────────────────┼──────────────────────────────────────────┘
-│
+                           │
 ┌──────────────────────────▼──────────────────────────────────────────┐
 │                      BACKEND (FastAPI / Python)                       │
 │  ┌──────────────────────────────────────────────────────────────┐   │
@@ -23,9 +26,9 @@
 │  └───────────────────┬──────────────────────────────────────────┘   │
 │  ┌───────────────────▼────────────────────────────────────────────┐ │
 │  │              AI Orchestration Service (3-Step Loop)             │ │
-│  │  Step 1: Groq Llama 3.3 70B + Tools  picks tool to call       │ │
+│  │  Step 1: Router Call  model outputs JSON to pick a tool        │ │
 │  │  Step 2: Tool Executor  fetches real data from DB or PDFs      │ │
-│  │  Step 3: Groq no tools  writes final answer from data          │ │
+│  │  Step 3: Answer Call  model writes final answer from data      │ │
 │  └───────────────────┬────────────────────────────────────────────┘ │
 │  ┌───────────────────▼────────────────────────────────────────────┐ │
 │  │  query_structured_data  search_documents  get_top_titles        │ │
@@ -42,6 +45,8 @@
 │  │  regional_performance │  │                                  │   │
 │  └───────────────────────┘  └──────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ## 🚀 Quick Start
@@ -54,23 +59,28 @@
 
 ---
 
-### Option A — Local Development
-
-#### 1. Get a Free Groq API Key
+### Step 1 — Get Free Groq API Key
 1. Go to https://console.groq.com
 2. Sign up for free
-3. Click API Keys then Create API Key
-4. Copy the key starting with gsk_
+3. Click **API Keys** then **Create API Key**
+4. Copy the key starting with `gsk_`
 
-#### 2. Set Up Environment
+### Step 2 — Set Up Environment
+
 ```bash
 git clone <your-repo-url>
 cd secure-ai-insights
 cp .env.example .env
 ```
-Open .env and set:
+
+Open `.env` and set:
+
+```
 ANTHROPIC_API_KEY=gsk_your_groq_key_here
-#### 3. Start the Backend
+```
+
+### Step 3 — Start the Backend
+
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -78,11 +88,13 @@ pip install groq
 ```
 
 Windows:
+
 ```cmd
 C:\Users\<you>\AppData\Local\Programs\Python\Python312\python.exe -m uvicorn app.main:app --reload --port 8000
 ```
 
 Linux / Mac:
+
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```
@@ -90,11 +102,12 @@ uvicorn app.main:app --reload --port 8000
 On startup the backend will:
 - Load all 6 CSV files into SQLite automatically
 - Index all 5 PDF documents
-- Print: === Ready to serve requests ===
+- Print: `=== Ready to serve requests ===`
 
 API docs: http://localhost:8000/docs
 
-#### 4. Start the Frontend
+### Step 4 — Start the Frontend
+
 ```bash
 cd frontend
 npm install
@@ -106,16 +119,20 @@ Open http://localhost:3000
 ---
 
 ### Option B — Docker Compose
+
 ```bash
 cp .env.example .env
 docker-compose up --build
 ```
-Frontend: http://localhost:3000
-Backend: http://localhost:8000
+
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
 
 ---
 
 ## 🗂️ Project Structure
+
+```
 secure-ai-insights/
 ├── backend/
 │   ├── app/
@@ -127,14 +144,14 @@ secure-ai-insights/
 │   │   │   ├── analytics.py     # GET /api/analytics/*
 │   │   │   └── documents.py     # GET /api/documents/*
 │   │   ├── services/
-│   │   │   ├── ai_service.py    # Groq 3-step tool-calling loop
+│   │   │   ├── ai_service.py    # Groq 3-step manual routing loop
 │   │   │   └── pdf_service.py   # PDF extraction and keyword index
 │   │   └── tools/
 │   │       └── executor.py      # Tool implementations, safe read-only
 │   ├── data/
 │   │   ├── csv/                 # 6 synthetic CSV files
 │   │   ├── pdf/                 # 5 synthetic PDF reports
-│   │   └── db/                  # SQLite DB (auto-created on startup)
+│   │   └── db/                  # SQLite DB auto-created on startup
 │   ├── requirements.txt
 │   └── Dockerfile
 ├── frontend/
@@ -143,16 +160,18 @@ secure-ai-insights/
 │   │   ├── App.css              # Dark theme design system
 │   │   ├── api.js               # Axios client
 │   │   └── components/
-│   │       ├── ChatPanel.jsx    # AI chat with tool trace
+│   │       ├── ChatPanel.jsx    # AI chat with tool trace display
 │   │       ├── ChartsPanel.jsx  # 6 live chart visualizations
-│   │       ├── DocumentsPanel.jsx  # PDF search UI
-│   │       └── StatsBar.jsx     # Live KPI bar
+│   │       ├── DocumentsPanel.jsx  # PDF search interface
+│   │       └── StatsBar.jsx     # Live KPI stats bar
 │   ├── vite.config.js
 │   ├── nginx.conf
 │   └── Dockerfile
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
+```
+
 ---
 
 ## 🛠️ API Reference
@@ -161,10 +180,11 @@ secure-ai-insights/
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | /api/chat/ | Send message, get AI answer with tool trace |
-| GET | /api/chat/suggested-questions | Preset example questions |
+| POST | `/api/chat/` | Send message, get AI answer with tool trace |
+| GET | `/api/chat/suggested-questions` | Preset example questions |
 
-Request:
+**Request:**
+
 ```json
 {
   "message": "Which titles performed best in 2025?",
@@ -172,7 +192,8 @@ Request:
 }
 ```
 
-Response:
+**Response:**
+
 ```json
 {
   "answer": "Based on the database, the top title is Stellar Run...",
@@ -186,83 +207,88 @@ Response:
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | /api/analytics/overview-stats | Dashboard KPIs |
-| GET | /api/analytics/top-titles | Top titles by views |
-| GET | /api/analytics/genre-trends | Genre performance over time |
-| GET | /api/analytics/regional-heatmap | City engagement data |
-| GET | /api/analytics/marketing-efficiency | Spend vs conversions |
-| GET | /api/analytics/audience-segments | Viewer segment breakdown |
+| GET | `/api/analytics/overview-stats` | Dashboard KPIs |
+| GET | `/api/analytics/top-titles` | Top titles by views |
+| GET | `/api/analytics/genre-trends` | Genre performance over time |
+| GET | `/api/analytics/regional-heatmap` | City engagement data |
+| GET | `/api/analytics/marketing-efficiency` | Spend vs conversions |
+| GET | `/api/analytics/audience-segments` | Viewer segment breakdown |
 
 ### Documents
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | /api/documents/ | List all indexed PDFs |
-| GET | /api/documents/search?q=... | Keyword search across documents |
+| GET | `/api/documents/` | List all indexed PDFs |
+| GET | `/api/documents/search?q=...` | Keyword search across documents |
 
 ---
 
 ## 🔒 Security Architecture
 
 ### 1. Tool-Based Access Control
-The AI never touches the database directly. Every data request flows through:
+The AI never touches the database directly. Every request flows through:
+
+```
 User Query → AI Model → Tool Call → Executor → Safe Query → DB or PDFs
+```
+
 ### 2. SQL Injection Prevention
-- Only SELECT statements allowed, enforced in database.py
-- Blocked keywords: DROP, DELETE, INSERT, UPDATE, ALTER, CREATE, EXEC
+- Only SELECT statements allowed, enforced in `database.py`
+- Blocked keywords: `DROP, DELETE, INSERT, UPDATE, ALTER, CREATE, EXEC`
 - User inputs sanitized before SQL interpolation
-- Hard cap of 500 rows per query result
+- Hard cap of 500 rows per query
 
 ### 3. Input Validation
-- All API inputs validated by Pydantic with strict field constraints
+- All API inputs validated by Pydantic with strict constraints
 - Message max length: 2000 characters
-- Role field restricted to user or assistant only
+- Role field restricted to `user` or `assistant` only
 
 ### 4. Secret Management
-- API key loaded from .env only, never in source code
-- .env listed in .gitignore, never committed to version control
+- API key loaded from `.env` only, never hardcoded in source
+- `.env` in `.gitignore`, never committed to version control
 - Docker uses environment variable injection
 
 ### 5. CORS Protection
-- Explicit allowed origins configured in config.py
+- Explicit allowed origins configured in `config.py`
 - Only GET and POST methods accepted
 
 ### 6. Data Privacy
-- Dataset is fully synthetic, no real PII
+- Dataset is fully synthetic, no real PII included
 - All tool results logged in trace for auditability
 
 ---
 
 ## 🤖 AI Tool Calling Architecture
 
-Model: Llama 3.3 70B via Groq Cloud API (free tier)
+**Model:** Llama 3.3 70B via Groq Cloud API (free tier)
 
-### 3-Step Execution Pattern
-Step 1 → Call Groq WITH tools enabled
-Model picks the right tool for the question
-Step 2 → Execute the selected tool
-Fetch real data from SQLite or PDF index
-Step 3 → Call Groq WITH tools DISABLED
-Model writes final answer using the fetched data
-This prevents Llama chained tool-call failures
-### Error Recovery
-When Llama generates malformed tool syntax (a known Llama 3 quirk), the system:
-1. Catches the 400 error from Groq
-2. Parses the failed_generation field using regex
-3. Extracts the intended tool name and arguments manually
-4. Executes the tool and generates the answer anyway
+### 3-Step Manual Routing Pattern
+
+```
+Step 1 — Router Call (no function calling)
+          Model outputs plain JSON: {"tool": "name", "args": {}}
+          We parse it ourselves — eliminates all Groq 400 errors
+
+Step 2 — Execute the selected tool
+          Fetch real data from SQLite database or PDF index
+
+Step 3 — Answer Call (no function calling)
+          Model writes the final answer using the fetched data
+```
+
+> This approach avoids Groq's native function calling entirely, which is known to cause malformed syntax errors with Llama 3. All tool routing is handled by parsing plain JSON output from the model.
 
 ### Available Tools
 
 | Tool | Source | Purpose |
 |------|--------|---------|
-| get_top_titles | SQLite | Top movies by total views |
-| get_trending_analysis | SQLite | Recent vs historical view comparison |
-| compare_titles | SQLite | Side-by-side movie comparison |
-| get_regional_engagement | SQLite | City-level engagement metrics |
-| get_genre_performance | SQLite | Genre trends over time |
-| search_documents | PDF index | Qualitative insights from reports |
-| query_structured_data | SQLite | Custom ad-hoc SELECT queries |
+| `get_top_titles` | SQLite | Top movies by total views |
+| `get_trending_analysis` | SQLite | Recent vs historical view comparison |
+| `compare_titles` | SQLite | Side-by-side movie comparison |
+| `get_regional_engagement` | SQLite | City-level engagement metrics |
+| `get_genre_performance` | SQLite | Genre trends over time |
+| `search_documents` | PDF index | Qualitative insights from reports |
+| `query_structured_data` | SQLite | Custom ad-hoc SELECT queries |
 
 ---
 
@@ -270,18 +296,18 @@ When Llama generates malformed tool syntax (a known Llama 3 quirk), the system:
 
 | Question | Tool Used | Source |
 |----------|-----------|--------|
-| Which titles performed best in 2025? | get_top_titles | SQL |
-| Why is Stellar Run trending recently? | get_trending_analysis | SQL |
-| Compare Dark Orbit vs Last Kingdom | compare_titles | SQL |
-| Which city had strongest engagement? | get_regional_engagement | SQL |
-| What explains weak comedy performance? | get_genre_performance | SQL |
-| What recommendations for leadership? | search_documents | PDF |
+| Which titles performed best in 2025? | `get_top_titles` | SQL |
+| Why is Stellar Run trending recently? | `get_trending_analysis` | SQL |
+| Compare Dark Orbit vs Last Kingdom | `compare_titles` | SQL |
+| Which city had strongest engagement? | `get_regional_engagement` | SQL |
+| What explains weak comedy performance? | `get_genre_performance` | SQL |
+| What recommendations for leadership? | `search_documents` | PDF |
 
 ---
 
 ## ⚙️ Configuration
 
-All settings in backend/app/config.py, loaded from .env:
+All settings in `backend/app/config.py`, loaded from `.env`:
 
 ```env
 # Your Groq API key from console.groq.com (free, no card)
@@ -292,7 +318,7 @@ MAX_TOKENS=2048
 ALLOWED_ORIGINS=["http://localhost:3000"]
 ```
 
-Note: The config variable is named ANTHROPIC_API_KEY for legacy compatibility but stores your Groq API key.
+> The variable is named `ANTHROPIC_API_KEY` for legacy compatibility but stores your Groq API key.
 
 ---
 
@@ -318,30 +344,31 @@ Note: The config variable is named ANTHROPIC_API_KEY for legacy compatibility bu
 1. SQLite is appropriate for demo scale. Production would use PostgreSQL.
 2. Keyword PDF search works for 5 documents. Production would use vector embeddings.
 3. No authentication implemented. Assumed to run behind VPN or SSO in production.
-4. All data is synthetically generated, not from a real system.
-5. AI is instructed to call one tool per turn to avoid Llama chained tool-call instability.
+4. All data is synthetically generated, not from a real business system.
+5. Manual JSON routing used instead of native function calling to avoid Llama 3 instability.
 
 ### Tradeoffs
 
 | Decision | Chosen | Alternative | Reason |
 |----------|--------|-------------|--------|
-| AI Provider | Groq free | OpenAI, paid APIs | Zero cost, sufficient capability |
-| PDF Search | Keyword | Vector embeddings | No GPU or extra install needed |
-| Database | SQLite | PostgreSQL | No infrastructure for demo |
-| Frontend state | useState | Redux or Zustand | Unnecessary complexity here |
-| Auth | None | JWT or OAuth | Out of scope for internal demo |
+| AI Provider | Groq free tier | OpenAI, paid APIs | Zero cost, sufficient capability |
+| Tool Routing | Manual JSON parsing | Groq function calling | Eliminates 400 errors from Llama 3 |
+| PDF Search | Keyword matching | Vector embeddings | No GPU or extra install needed |
+| Database | SQLite | PostgreSQL | No infrastructure overhead for demo |
+| Frontend state | React useState | Redux or Zustand | Unnecessary complexity at this scale |
+| Auth | None | JWT or OAuth | Out of scope for internal demo tool |
 
 ---
 
 ## 📈 Extending the Project
 
-- Switch model: change llama-3.3-70b-versatile in ai_service.py to any Groq-supported model
-- Add vector search: replace pdf_service.py with ChromaDB and sentence-transformers
-- Add PostgreSQL: update DATABASE_URL in .env, SQLAlchemy handles the rest
-- Add authentication: use python-jose and FastAPI dependency injection for JWT
-- Add streaming: use groq.stream() with FastAPI StreamingResponse for real-time output
-- Add caching: add Redis to cache frequent analytics queries
-- Add data sources: add new tools in executor.py and register them in ai_service.py
+- **Switch model** — change `llama-3.3-70b-versatile` in `ai_service.py` to any Groq-supported model
+- **Add vector search** — replace `pdf_service.py` with ChromaDB and sentence-transformers
+- **Add PostgreSQL** — update `DATABASE_URL` in `.env`, SQLAlchemy handles the rest
+- **Add authentication** — use `python-jose` and FastAPI dependency injection for JWT
+- **Add streaming** — use `groq.stream()` with FastAPI `StreamingResponse` for real-time output
+- **Add Redis caching** — cache frequent analytics queries to reduce latency
+- **Add more tools** — implement in `executor.py` and register in `ai_service.py`
 
 ---
 
