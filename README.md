@@ -1,4 +1,3 @@
-The issue is the code blocks inside the README are breaking the formatting. Here is the complete fixed version — Ctrl+A → Delete → Paste → Ctrl+S:
 # 🎬 StreamVault AI Insights
 ### Secure AI-Powered Internal Analytics Assistant
 
